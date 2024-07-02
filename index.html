@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Cauca: Prosperidad con Justicia Social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="CaucaLogo.jpeg" alt="logotipo" width="100" id="logo">
+        <h1>Cauca: Prosperidad con Justicia Social</h1>
+    </header>
+
+    <div class="video-container">
+        <div class="video-box"></div>
+        <video controls>
+            <source src="Cauca Proyecto.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <section id="intro">
+                <div class="intro-content">
+                    <h2>Introducción</h2>
+                    <p>La justicia social en las comunidades del departamento del Cauca, Colombia,<br>es un tema complejo que requiere un enfoque integral y sostenido.</p>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="container">
+            <section id="formulacion">
+                <div class="column">
+                    <div class="formulacion-part">
+                        <h2>Tareas y Pasos a Seguir</h2>
+                    <ul>
+                        <li><button onclick="openPopup('diagnostico')">Diagnóstico y Evaluación Inicial</button></li>
+                        <li><button onclick="openPopup('educacion')">Educación y Sensibilización</button></li>
+                        <li><button onclick="openPopup('fortalecimiento')">Fortalecimiento Institucional y de Liderazgo</button></li>
+                        <li><button onclick="openPopup('desarrollo')">Desarrollo Económico Inclusivo</button></li>
+                        <li><button onclick="openPopup('servicios')">Acceso a Servicios Básicos</button></li>
+                        <li><button onclick="openPopup('seguridad')">Seguridad y Protección</button></li>
+                        <li><button onclick="openPopup('sostenibilidad')">Sostenibilidad Ambiental</button></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="formulacion-part">
+                        <h2>Desarrollo del Proyecto</h2>
+                        <ul>
+                            <li><button onclick="openPopup('fase1')">Fase 1: Planificación y Diseño</button></li>
+                            <li><button onclick="openPopup('fase2')">Fase 2: Implementación</button></li>
+                            <li><button onclick="openPopup('fase3')">Fase 3: Sostenibilidad y Expansión</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+        <section id="tareas">
+            
+        </section>
+
+        <section id="proyecto">
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Proyecto Cauca</p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div id="popup-content"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
