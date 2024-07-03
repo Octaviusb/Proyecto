@@ -203,3 +203,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+#banner{
+    width: 100%;
+}
